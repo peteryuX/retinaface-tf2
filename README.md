@@ -2,6 +2,8 @@
 
 :fire: RetinaFace (RetinaFace: Single-stage Dense Face Localisation in the Wild, published in 2019) implemented (ResNet50, MobileNetV2 trained on single GPU) in Tensorflow 2.0+. This is an unofficial implementation. :fire:
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peteryuX/retinaface-tf2/blob/master/notebooks/colab-github-demo.ipynb)
+
 Original Paper: &nbsp; [Arxiv](https://arxiv.org/abs/1905.00641)
 
 Offical Implementation: &nbsp; [MXNet](https://github.com/deepinsight/insightface/tree/master/RetinaFace)
