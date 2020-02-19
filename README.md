@@ -28,6 +28,12 @@ Offical Implementation: &nbsp; [MXNet](https://github.com/deepinsight/insightfac
 
 Create a new python virtual environment by [Anaconda](https://www.anaconda.com/) or just use pip in your python environment and then clone this repository as following.
 
+### Clone this repo
+```bash
+git clone https://github.com/peteryuX/retinaface-tf2.git
+cd retinaface-tf2
+```
+
 ### Conda
 ```bash
 conda env create -f environment.yml
@@ -38,12 +44,6 @@ conda activate retinaface-tf2
 
 ```bash
 pip install -r requirements.txt
-```
-
-### Clone this repo
-```bash
-git clone git@github.com:peteryuX/retinaface-tf2.git
-cd retinaface-tf2
 ```
 
 ****

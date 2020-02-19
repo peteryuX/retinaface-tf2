@@ -2,7 +2,6 @@ from absl import app, flags, logging
 from absl.flags import FLAGS
 import cv2
 import os
-import pathlib
 import numpy as np
 import tensorflow as tf
 import time
