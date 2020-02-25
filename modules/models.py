@@ -81,7 +81,7 @@ def Backbone(backbone_type='ResNet50', use_pretrain=True):
 
 
 class ConvUnit(tf.keras.layers.Layer):
-    """Conv + BN + LeakyRelu"""
+    """Conv + BN + Act"""
     def __init__(self, f, k, s, wd, act=None, name='ConvBN',
                  **kwargs):
         super(ConvUnit, self).__init__(name=name, **kwargs)
