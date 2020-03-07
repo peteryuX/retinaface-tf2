@@ -7,6 +7,8 @@
 
 :fire: RetinaFace (RetinaFace: Single-stage Dense Face Localisation in the Wild, published in 2019) implemented (ResNet50, MobileNetV2 trained on single GPU) in Tensorflow 2.0+. This is an unofficial implementation. :fire:
 
+> RetinaFace presents a robust single-stage face detector, which performs pixel-wise face localisation on various scales of faces by taking advantages of joint extra-supervised and self-supervised multi-task learning(manually annotate five facial landmarks on the WIDER FACE). On the WIDER FACE hard test set, RetinaFace outperforms the state of the art average precision (AP) by 1.1% (achieving AP equal to 91.4%).
+
 Original Paper: &nbsp; [Arxiv](https://arxiv.org/abs/1905.00641)
 
 Offical Implementation: &nbsp; [MXNet](https://github.com/deepinsight/insightface/tree/master/RetinaFace)
