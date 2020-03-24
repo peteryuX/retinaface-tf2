@@ -12,7 +12,6 @@ import argparse
 import numpy as np
 from scipy.io import loadmat
 from bbox import bbox_overlaps
-from IPython import embed
 
 
 def get_gt_boxes(gt_dir):

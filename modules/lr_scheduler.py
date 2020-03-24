@@ -1,6 +1,4 @@
 import tensorflow as tf
-import math
-from tensorflow.keras.optimizers.schedules import LearningRateSchedule
 
 
 def MultiStepLR(initial_learning_rate, lr_steps, lr_rate, name='MultiStepLR'):

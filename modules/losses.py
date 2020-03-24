@@ -1,5 +1,4 @@
 import tensorflow as tf
-from tensorflow.keras.applications.vgg19 import preprocess_input, VGG19
 
 
 def _smooth_l1_loss(y_true, y_pred):

@@ -1,7 +1,6 @@
 from absl import app, flags, logging
 from absl.flags import FLAGS
 import os
-import numpy as np
 import tensorflow as tf
 
 from modules.models import RetinaFaceModel

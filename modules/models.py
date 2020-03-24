@@ -1,20 +1,7 @@
-import functools
 import tensorflow as tf
-from tensorflow.python import keras
 from tensorflow.keras import Model
-from tensorflow.keras.applications import (
-    MobileNetV2,
-    ResNet50
-)
-from tensorflow.keras.layers import (
-    Dense,
-    Dropout,
-    Flatten,
-    Input,
-    Conv2D,
-    ReLU,
-    LeakyReLU
-)
+from tensorflow.keras.applications import MobileNetV2, ResNet50
+from tensorflow.keras.layers import Input, Conv2D, ReLU, LeakyReLU
 from modules.anchor import decode_tf, prior_box_tf
 
 

@@ -2,7 +2,6 @@ from absl import app, flags, logging
 from absl.flags import FLAGS
 import os
 import tqdm
-import glob
 import random
 import tensorflow as tf
 import numpy as np
