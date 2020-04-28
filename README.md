@@ -220,8 +220,8 @@ python test.py --cfg_path="./configs/retinaface_mbv2.yaml" --webcam=True --down_
 
 | Model Name          | Easy   | Medium | Hard   |
 |---------------------|--------|--------|--------|
-| Tensorflow2 MobileNetV2 | 93.35% | 91.78% | 79.51% |
-| Tensorflow2 ResNet50 | 94.84% | 93.95% | 83.38% |
+| Tensorflow2 MobileNetV2 | 93.23% | 91.74% | 80.01% |
+| Tensorflow2 ResNet50 | 94.21% | 93.25% | 83.55% |
 | [Pytorch ResNet50](https://github.com/biubug6/Pytorch_Retinaface) | 95.48% | 94.04% | 84.43% |
 | [Mxnet ResNet50 (Official)](https://github.com/deepinsight/insightface/tree/master/RetinaFace) | 94.97% | 93.89% | 82.27% |
 ****
@@ -235,12 +235,13 @@ Note:
 
 | Model Name          | Download Link |
 |---------------------|---------------|
-| Retinaface ResNet50 | [GoogleDrive](https://drive.google.com/file/d/1MgpOsJJRhm7tBDJ2lDlKyG3op7evivPd/view?usp=sharing) |
-| Retinaface MobileNetV2 | [GoogleDrive](https://drive.google.com/file/d/1Q8b2vBLafFOr5hy5i4MbgOAoa9tppl3A/view?usp=sharing) |
+| Retinaface ResNet50 | [GoogleDrive](https://drive.google.com/file/d/1qnuci2BVUNH3fqVqQYCoub4Wd2gShld9/view?usp=sharing) |
+| Retinaface MobileNetV2 | [GoogleDrive](https://drive.google.com/file/d/16HBH2bpSY3TQ_STryWFe72CIcUzp6GRy/view?usp=sharing) |
 
 Note:
 - After dowloading these models, extract them into `./checkpoints` for restoring.
 - All training settings of the models can be found in the corresponding [./configs/*.yaml](https://github.com/peteryuX/retinaface-tf2/tree/master/configs) files.
+- You can see the tensorboard traning logs in [here](https://tensorboard.dev/experiment/2Jr2OUjpS2CWr9SySPK2tQ/#scalars).
 
 ****
 

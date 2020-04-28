@@ -116,7 +116,7 @@ class FPN(tf.keras.layers.Layer):
         output2 = self.merge2(output2)
 
         up_h, up_w = tf.shape(output1)[1], tf.shape(output1)[2]
-        up2 = tf.image.resize(output3, [up_h, up_w], method='nearest')
+        up2 = tf.image.resize(output2, [up_h, up_w], method='nearest')
         output1 = output1 + up2
         output1 = self.merge1(output1)
 
