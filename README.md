@@ -173,10 +173,10 @@ You can download my trained models for testing from [Models](#Models) without tr
 **Step 1**: Produce txt results and visualizations from model.
 ```bash
 # Test ResNet50 backbone model
-python test_widerface.py.py --cfg_path="./configs/retinaface_res50.yaml" --gpu=0
+python test_widerface.py --cfg_path="./configs/retinaface_res50.yaml" --gpu=0
 # or
 # Test ResNet50 backbone model
-python test_widerface.py.py --cfg_path="./configs/retinaface_mbv2.yaml" --gpu=0
+python test_widerface.py --cfg_path="./configs/retinaface_mbv2.yaml" --gpu=0
 ```
 
 Note:
