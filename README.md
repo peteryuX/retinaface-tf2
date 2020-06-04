@@ -242,6 +242,7 @@ Note:
 - After dowloading these models, extract them into `./checkpoints` for restoring.
 - All training settings of the models can be found in the corresponding [./configs/*.yaml](https://github.com/peteryuX/retinaface-tf2/tree/master/configs) files.
 - You can see the tensorboard traning logs in [here](https://tensorboard.dev/experiment/2Jr2OUjpS2CWr9SySPK2tQ/#scalars).
+- **Based on the property of the training dataset, all the pre-trained models can only be used for non-commercial applications.**
 
 ****
 
