@@ -75,7 +75,7 @@ class PiecewiseConstantWarmUpDecay(
                                     values[1:-1]):
                 # Need to bind v here; can do this with lambda v=v: ...
                 pred = (step > low) & (step <= high)
-                pred_fn_pairs.append((pred, lambda: tf.constant(v)))
+                pred_fn_pairs.append((pred, lambda captured=tf.constant(v): captured))
 
             # The default isn't needed here because our conditions are mutually
             # exclusive and exhaustive, but tf.case requires it.
