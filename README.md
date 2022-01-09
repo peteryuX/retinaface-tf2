@@ -251,7 +251,7 @@ Note:
 
 Thanks for these source codes porviding me with knowledges to complete this repository.
 
-- https://github.com/deepinsight/insightface/tree/master/RetinaFace (Official)
+- https://github.com/deepinsight/insightface/tree/master/detection/retinaface (Official)
     - Face Analysis Project on MXNet http://insightface.ai
 - https://github.com/biubug6/Pytorch_Retinaface
     - Retinaface get 80.99% in widerface hard val using mobilenet0.25.
